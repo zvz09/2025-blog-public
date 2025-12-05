@@ -31,14 +31,18 @@
 			"url": "/images/art/a46372ff45bc5524.jpg"
 		}
 	],
-	"currentArtImageId": "a46372ff45bc5524",
+	"currentArtImageId": "cat",
 	"backgroundImages": [
 		{
 			"id": "",
 			"url": ""
+		},
+		{
+			"id": "172abbf5eecfbd97",
+			"url": "/images/background/172abbf5eecfbd97.png"
 		}
 	],
-	"currentBackgroundImageId": "",
+	"currentBackgroundImageId": "172abbf5eecfbd97",
 	"socialButtons": [
 		{
 			"id": "github",
@@ -95,7 +99,7 @@
 		},
 		{
 			"icon": "scroll-outline",
-			"iconActive": "scroll-filled",
+			"iconActive": "website-filled",
 			"label": "新导航项",
 			"href": "/new"
 		}
