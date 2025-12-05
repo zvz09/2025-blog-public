@@ -70,5 +70,271 @@
 			"新开普"
 		],
 		"stars": 4
+	},
+	{
+		"name": "URL转码",
+		"url": "https://tool.chinaz.com/tools/urlencode.aspx",
+		"tags": [
+			"工具"
+		]
+	},
+	{
+		"name": "JSON格式化",
+		"url": "https://www.json.cn/",
+		"tags": [
+			"工具"
+		]
+	},
+	{
+		"name": "json2typescript",
+		"url": "https://tooltt.com/json2typescript/",
+		"tags": [
+			"工具"
+		]
+	},
+	{
+		"name": "文件对比",
+		"url": "https://www.jq22.com/textDifference",
+		"tags": [
+			"工具"
+		]
+	},
+	{
+		"name": "简体/繁体转换",
+		"url": "https://brushes8.com/zhong-wen-jian-ti-fan-ti-zhuan-huan",
+		"tags": [
+			"工具"
+		]
+	},
+	{
+		"name": "JsonPath",
+		"url": "https://www.jsonpath.cn/",
+		"tags": [
+			"工具"
+		]
+	},
+	{
+		"name": "IPv4/IPv6 CIDR 地址计算器",
+		"url": "https://www.lddgo.net/network/cidr",
+		"tags": [
+			"工具"
+		]
+	},
+	{
+		"name": "源码赏析",
+		"url": "https://doocs.gitee.io/source-code-hunter/#/",
+		"tags": [
+			"知识点"
+		]
+	},
+	{
+		"name": "面试题",
+		"url": "https://javaguide.cn/",
+		"tags": [
+			"知识点"
+		]
+	},
+	{
+		"name": "知识点扫盲",
+		"url": "https://doocs.gitee.io/advanced-java/#/?id=%e4%ba%92%e8%81%94%e7%bd%91-java-%e5%b7%a5%e7%a8%8b%e5%b8%88%e8%bf%9b%e9%98%b6%e7%9f%a5%e8%af%86%e5%ae%8c%e5%85%a8%e6%89%ab%e7%9b%b2",
+		"tags": [
+			"知识点"
+		]
+	},
+	{
+		"name": "算法小抄",
+		"url": "https://labuladong.gitee.io/algo/",
+		"tags": [
+			"知识点"
+		]
+	},
+	{
+		"name": "八股文",
+		"url": "https://yq0pkza686.feishu.cn/docx/MlXKdPAZzoz4nAxcneIcAC3Fn9d",
+		"tags": [
+			"知识点"
+		]
+	},
+	{
+		"name": "帆一邮箱",
+		"url": "https://mail.sail-cloud.com/alimail/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "上汽集团用户中心",
+		"url": "https://saic.saicmotor.com/login.html",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "老GitLab",
+		"url": "https://gitlab.saicstack.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "catalyzer-GitLab",
+		"url": "https://catalyzer-gitlab.sail-cloud.com/finshine-prod-sailcloud3",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "资源book平台",
+		"url": "http://oa-book.sail-cloud.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "帆一尚行一体化研发效能平台",
+		"url": "https://catalyzer.sail-cloud.com",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "帆一尚行(郑州)-OA管理平台",
+		"url": "https://oa.sail-cloud.com/user/login?redirect=%2Fsaic%2Fuser",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "帆一尚行 协同管理平台",
+		"url": "https://work.fin-shine.com/#/home",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "帆一尚行k8s容器管理平台",
+		"url": "http://10.141.202.18:82/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "堡垒机",
+		"url": "https://sc-agw.sail-cloud.com/#/login",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "Rancher",
+		"url": "https://k8sadmin.sxc.sh/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "CSP 生产环境",
+		"url": "https://www.sail-cloud.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "CSP 开发环境",
+		"url": "http://csp2-dev.zzdev.sail-cloud.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "CSP 测试环境",
+		"url": "http://csp2-test.zz-test.sail-cloud.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "生产catalyzer",
+		"url": "https://catalyzer-saas-gitlab.sail-cloud.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "开发环境CMP",
+		"url": "http://aik3-cmp-web.zzdev.sail-cloud.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "测试环境CMP",
+		"url": "http://aik3-cmp-web.zz-test.sail-cloud.com/#/login",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "测试环境容器文件下载",
+		"url": "http://10.141.202.20:9998/dashboard",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "开发环境容器文件下载",
+		"url": "http://10.141.202.20:9997/dashboard",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "DBaas 开发环境 管理端",
+		"url": "http://10.145.1.146:21080",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "内网-堡垒机",
+		"url": "https://sc-pam-agw.sail-cloud.com/",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "私有化开发环境",
+		"url": "http://xihe-cmp.zzdev.sail-cloud.com",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "私有化测试环境",
+		"url": "http://xihe-cmp.zz-test.sail-cloud.com",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "制品仓",
+		"url": "https://artifact-reps-release.sail-cloud.com/#/login?redirect=/harbor",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "Harbor",
+		"url": "https://artifacth-release.sail-cloud.com/account/sign-in?redirect_url=%2Fharbor%2Fprojects",
+		"tags": [
+			"帆一尚行"
+		]
+	},
+	{
+		"name": "Jenkins",
+		"url": "http://10.141.202.39:6080",
+		"tags": [
+			"帆一尚行"
+		]
 	}
 ]

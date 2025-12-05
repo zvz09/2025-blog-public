@@ -26,12 +26,12 @@ const SEARCH_ENGINES = [
 
 export default function GridView({ shares, isEditMode = false, onUpdate, onDelete }: GridViewProps) {
 	const [searchTerm, setSearchTerm] = useState('')
-	const [selectedTag, setSelectedTag] = useState<string>('all')
+
 	const [searchEngine, setSearchEngine] = useState<SearchEngine>('local')
 	const [showDropdown, setShowDropdown] = useState(false)
 
 	const allTags = Array.from(new Set(shares.flatMap(share => share.tags)))
-
+	const [selectedTag, setSelectedTag] = useState<string>(allTags[0] ? allTags[0] : '')
 	// 处理联网搜索
 	const handleWebSearch = (term: string) => {
 		if (!term.trim()) return
@@ -62,7 +62,9 @@ export default function GridView({ shares, isEditMode = false, onUpdate, onDelet
 		if (searchEngine !== 'local') return selectedTag === 'all' || share.tags.includes(selectedTag)
 
 		// 本地搜索逻辑
-		const matchesSearch = share.name.toLowerCase().includes(searchTerm.toLowerCase()) || share.description.toLowerCase().includes(searchTerm.toLowerCase())
+		const name = share.name || '';
+		const description = share.description || '';
+		const matchesSearch = name.toLowerCase().includes(searchTerm.toLowerCase()) || description.toLowerCase().includes(searchTerm.toLowerCase())
 		const matchesTag = selectedTag === 'all' || share.tags.includes(selectedTag)
 		return matchesSearch && matchesTag
 	})
@@ -159,15 +161,6 @@ export default function GridView({ shares, isEditMode = false, onUpdate, onDelet
 
 				{/* Tag 筛选按钮 (保持科技感渐变风格) - 保持不变 */}
 				<div className='flex flex-wrap justify-center gap-2 pt-2'>
-					<button
-						onClick={() => setSelectedTag('all')}
-						className={`px-5 py-2.5 text-sm font-medium rounded-full transition-all duration-200 transform hover:scale-105 ${
-							selectedTag === 'all'
-								? 'bg-gradient-to-r from-brand to-purple-600 text-white shadow-lg shadow-purple-600/40'
-								: 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50 shadow-sm'
-						}`}>
-						全部
-					</button>
 					{allTags.map(tag => (
 						<button
 							key={tag}
