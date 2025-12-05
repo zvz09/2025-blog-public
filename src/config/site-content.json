@@ -61,5 +61,55 @@
 			"label": "",
 			"order": 1
 		}
+	],
+	"navList": [
+		{
+			"icon": "scroll-outline",
+			"iconActive": "scroll-filled",
+			"label": "近期文章",
+			"href": "/blog"
+		},
+		{
+			"icon": "projects-outline",
+			"iconActive": "projects-filled",
+			"label": "我的项目",
+			"href": "/projects"
+		},
+		{
+			"icon": "about-outline",
+			"iconActive": "about-filled",
+			"label": "关于网站",
+			"href": "/about"
+		},
+		{
+			"icon": "share-outline",
+			"iconActive": "share-filled",
+			"label": "推荐分享",
+			"href": "/share"
+		},
+		{
+			"icon": "website-outline",
+			"iconActive": "website-filled",
+			"label": "优秀博客",
+			"href": "/bloggers"
+		},
+		{
+			"icon": "website-filled",
+			"iconActive": "share-filled",
+			"label": "新导航项",
+			"href": "/new"
+		},
+		{
+			"icon": "scroll-outline",
+			"iconActive": "scroll-filled",
+			"label": "新导航项",
+			"href": "/new"
+		},
+		{
+			"icon": "scroll-outline",
+			"iconActive": "scroll-filled",
+			"label": "新导航项",
+			"href": "/new"
+		}
 	]
 }
