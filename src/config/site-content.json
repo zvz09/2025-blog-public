@@ -94,18 +94,6 @@
 			"href": "/bloggers"
 		},
 		{
-			"icon": "website-filled",
-			"iconActive": "share-filled",
-			"label": "新导航项",
-			"href": "/new"
-		},
-		{
-			"icon": "scroll-outline",
-			"iconActive": "scroll-filled",
-			"label": "新导航项",
-			"href": "/new"
-		},
-		{
 			"icon": "scroll-outline",
 			"iconActive": "scroll-filled",
 			"label": "新导航项",
